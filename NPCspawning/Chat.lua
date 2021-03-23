@@ -1,10 +1,10 @@
 local Messages = {
 	"hi",
 	"e",
-	"who is you?",
+	"who is u?",
 	"wanna be friends?",
 	"wow",
-	"who are you?",
+	"who u?",
 	"IM NOT A NOOB!",
 	"STOP",
 	"how are you",
@@ -25,7 +25,15 @@ local MsgSegments = {
 	"goodbye ",
 	"*screams* ",
 	"help ",
-	"*talks* "
+	"*talks* ",
+	"jk ",
+	"hi ",
+	"who ",
+	"is ",
+	"are ",
+	"money ",
+	"cash ",
+	"vroom "
 }
 
 local MessageRemote = game.ReplicatedStorage.Assets.UserRemotes.ChatRemote
