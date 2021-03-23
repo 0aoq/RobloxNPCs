@@ -53,7 +53,7 @@ local ChosenName = Names[math.random(1, #Names)]
 if not workspace:FindFirstChild(ChosenName) then
 	script.Parent.Name = ChosenName
 else
-	local name = generateName(math.random(2, 5))
+	local name = generateName(math.random(2, 4))
 	wait(0.5)
 	script.Parent.Name = name
 end
